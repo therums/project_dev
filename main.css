@@ -1,0 +1,59 @@
+#site-header {
+  background-image: url(../images/candles-and-towel.jpg);
+  background-image: ;
+  background-repeat: no-repeat;
+  background-position: left top;
+  text-align: center;
+  font-size: 50px;
+}
+.wrapper {
+  margin-bottom: 20px;
+}
+body {
+  background-color: #c0e4e8;
+  
+}
+.banner {
+  display: block;
+  float: right;
+  width: 74.6%;
+  margin: 1% 0 1% 1.6%;
+}
+.sidebar {
+  display: block;
+  float: left;
+  clear: left;
+  width: 23.8%;
+  margin: 1% 0 1% 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .logo, .banner, .sidebar {
+    margin: 1% 0 1% 0%;
+    width: 100%;
+  }
+}
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+}
+p {
+  font-size: 25px;
+  margin-left: 45px;
+  max-width: 80%;
+}
+/*links*/
+a {
+  color: purple;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 40px;
+}
+a:hover {
+  color: red;
+}
+a:visited {
+  color: green;
+}
